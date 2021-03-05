@@ -1,0 +1,16 @@
+﻿body
+{
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+    width: 1000px;
+}
+
+thead {
+    background : #9f9f9f;
+}
+
+.table_type th,
+.table_type td { border: 1px solid red; padding: 20px; margin: 0;}
