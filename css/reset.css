@@ -1,0 +1,18 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body
+{
+}
+
+section {
+    height: 100vh;
+    background: #f1f1f1;
+}

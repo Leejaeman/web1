@@ -2,15 +2,166 @@
 {
 }
 
-table {
-    border-spacing: 0;
-    border-collapse: collapse;
-    width: 1000px;
+section > .section-container > .state {
+    width: 770px;
+    height: 900px;
 }
 
-thead {
-    background : #9f9f9f;
+section > .section-container > .state > .plant-data{
+    width: 770px;
+    height: 510px;
+
 }
 
-.table_type th,
-.table_type td { border: 1px solid red; padding: 20px; margin: 0;}
+section > .section-container > .map-container {
+    width: 570px;
+    height: 900px;
+}
+
+#plant-state {
+    width: 100%;
+    height: 120px;
+}
+
+.plant-title {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid #f1f1f4;
+    position: relative;
+}
+
+#plant-state table {
+    width: 100%;
+    border: 1px solid #f1f1f4;
+}
+
+.map-container {
+    width: 570px;
+    height: 850px;
+}
+
+.map {
+    width: 100%;
+    height: 640px;
+    background: url('../img/background_map.png') no-repeat;
+}
+
+.alarm {
+    width: 100%;
+    height: 200px;
+}
+
+#plant-state table tr, #plant-state table td, #plant-state table th {
+    border: 1px solid #f1f1f4;
+    padding: 5px;
+    text-align: center;
+}
+
+#plant-state table th {
+    background: #f1f1f4;
+}
+
+h2 {
+    font-size: 14px;
+    color: #0d6fb8;
+    height: 40px;
+    line-height: 40px;
+    font-family: 'notokr-bold';
+    border-top: 2px solid #65a3e3;
+    border-left: 1px solid #65a3e3;
+    border-right: 1px solid #e8e8ea;
+    padding-left: 48px;
+}
+
+.plant-current:before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 40px;
+    height: 40px;
+    background: url('../img/mico_plant.png') no-repeat #65a3e3 50% 50%;
+}
+
+#multi-data {
+    position: relative;
+    border-bottom: 1px solid #e8e8ea;
+}
+
+#multi-data:before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: -1px;
+    width: 40px;
+    height: 40px;
+    background: url('../img/mico_stats.png') no-repeat #65a3e3 50% 50%;
+}
+
+.plant-disable{
+    font-size: 15px;
+    
+}
+
+.plant-table, 
+.plant-table table tr, 
+.plant-table table tr th, 
+.plant-table table tr td {
+    border: 1px solid #d4d4d4;
+    font-size: 12px;
+}
+
+.plant-table > table {
+    height: 120px;
+}
+
+.plant-table table tr td {
+    text-align: right;
+    padding-right: 10px;
+}
+
+.first-column {
+    width: 93px;
+}
+
+.second-column {
+    width: 148px;
+}
+
+.third-column {
+    width: 129px;
+}
+
+.table-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.table-item { 
+    width: 385px;
+    height: 170px;
+}
+
+.table-item:nth-child(1) {
+    background: #90caf9;
+}
+
+.table-item:nth-child(2) {
+    background: #f48fb1;
+}
+
+.table-item:nth-child(3) {
+    background: #e6ee9c;
+}
+
+.table-item:nth-child(4) {
+    background: #b39ddb;
+}
+
+.table-item:nth-child(5) {
+    background:aquamarine;
+}
+
+.table-item:nth-child(6) {
+    background:#ef9a9a;
+}

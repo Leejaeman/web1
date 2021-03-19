@@ -1,0 +1,16 @@
+﻿body
+{
+}
+
+section {
+    display: flex;
+    justify-content: center;
+}
+
+section > .section-container {
+    width: 1400px;
+    background: white;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
