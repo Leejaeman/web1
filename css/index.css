@@ -1,0 +1,13 @@
+.sample {
+    padding-left: 50px;
+}
+
+.word{
+    width: 70%;
+    text-align: center;
+}
+
+ul > li {
+    padding: 10px 10px 5px;
+}
+

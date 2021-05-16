@@ -1,0 +1,15 @@
+span {
+    color: red;
+    font-weight: bold;
+}
+
+.typeimg {
+    background: url(../img/think.png) no-repeat;
+    width : 400px;
+    height: 200px;
+    margin-left: 200px;
+}
+
+.problem{
+    height: 150px;
+}
