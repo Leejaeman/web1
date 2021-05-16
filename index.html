@@ -1,302 +1,49 @@
-﻿<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html lang="ko">
 <head>
-    <meta charset="utf-8" />
-    <title>태양광 발전 - 관제 시스템</title>
-    <link href="css/reset.css" rel="stylesheet" />
-    <link href="common_css/header.css" rel="stylesheet" />
-    <link href="common_css/body.css" rel="stylesheet" />
-    <link href="css/index_style.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div id="logo">
+    <div id="center">
+        <header>
+            <div class="logo">
                 <a href="index.html"></a>
             </div>
-            <div id="tab-button">
+        </header>
+        <div class="problem">
+            <p>Kaspar Fürstenau에 관한 다음 글의 내용과 일치하지 않는 것은?</p><br>
+    
+            <p>Kaspar Fürstenau was a German flutist and composer. After he was orphaned, Anton Romberg took <br><br>
+            care of him and taught him to play the bassoon, but Fürstenau was more interested in the flute. At <br><br>
+            the age of 15, he was already a skilled flutist and played in a military band. In 1793-94, Fürstenau<br><br>
+                made his first concert tour in Germany. In 1794, he became a member of the "Chamber Orchestra <br><br>
+                of Oldenburg," where he played until the orchestra was abolished in 1811. Kaspar Fürstenau <br><br>
+                continued his career as a flutist performing together with his son Anton Fürstenau in the major <br><br>
+                cities of Europe.</p><br>
+                <div class="word">* abolish: (단체 등을 없애다)</div><br>
+    
+            <div class="sample">
                 <ul>
-                    <li><a href="plant/plant.html">발전소 현황</a></li>
-                    <li><a href="defect/defect.html">장애 정보</a></li>
-                    <li><a href="user_info/userinfo.html">사용자 정보 </a></li>
+                    <li><label><input type="radio" name="answer" value="1"/>  독일의 플루트 연주자이자 작곡가였다.</label></li>
+                    <li><label><input type="radio" name="answer" value="2"/>  고아가 된 후 Anton Romberg의 보살핌을 받았다.</label></li>
+                    <li><label><input type="radio" name="answer" value="3"/>  15세에 군악대에서 연주했다.</label></li>
+                    <li><label><input type="radio" name="answer" value="4"/>  1811년에 Chamber Orchestra of Oldenburg의 일원이 되었다.</label></li>
+                    <li><label><input type="radio" name="answer" value="5"/>  아들과 함께 유럽의 주요 도시에서 공연했다.</label></li>
                 </ul>
-            </div>
-        </div>
-    </header>
-
-    <section>
-        <div class="section-container">
-            <div class="state">
-                <div id="plant-state">
-                    <div class="plant-title">
-                        <!--<div class="plant-image"></div>-->
-                        <h2 class="plant-current">
-                            발전소 현황
-                        </h2>
-                    </div>
-                    <table>
-                        <colgroup>
-                            <col width="20%;" />
-                            <col width="20%;" />
-                            <col width="20%;" />
-                            <col width="20%;" />
-                            <col width="20%;" />
-                        </colgroup>
-                        <tr>
-                            <th>총 대수</th>
-                            <th>동작</th>
-                            <th>장애</th>
-                            <th>정지</th>
-                            <th>미관계</th>
-                        </tr>
-                        <tr>
-                            <td>18</td>
-                            <td>7</td>
-                            <td>0</td>
-                            <td>11</td>
-                            <td>0</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="plant-data">
-                    <h2 id="multi-data">
-                        발전소 데이터
-                    </h2>
-                    <div class="table-container">
-                        <div class="table-item">
-                            <a href="#">
-                                <div class="plant-normal">
-                                    검단오류역우방아이유쉘 태양광발전소
-                                </div>
-                                <div class="plant-table">
-                                    <table>
-                                        <colgroup>
-                                            <col class="first-column" />
-                                            <col class="second-column" />
-                                            <col class="third-column" />
-                                        </colgroup>
-                                        <tr>
-                                            <th>현재출력</th>
-                                            <td>0.00 kW</td>
-                                            <th>설치용량</th>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <th>0%</th>
-                                            <td>258 kW</td>
-                                        </tr>
-                                        <tr>
-                                            <th>금일발전량</th>
-                                            <td>0.00 kWh</td>
-                                            <th>금일발전시간</th>
-                                        </tr>
-                                        <tr>
-                                            <th>누적발전량</th>
-                                            <td>29.50 MWh</td>
-                                            <td>0.0 Hour</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="table-item">
-                            <a href="#">
-                                <div class="plant-disable">
-                                    아산배방우방아이유쉘 태양광발전소
-                                </div>
-                                <div class="plant-table">
-                                    <table>
-                                        <colgroup>
-                                            <col class="first-column" />
-                                            <col class="second-column" />
-                                            <col class="third-column" />
-                                        </colgroup>
-                                        <tr>
-                                            <th>현재출력</th>
-                                            <td>0.00 kW</td>
-                                            <th>설치용량</th>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <th>0%</th>
-                                            <td>258 kW</td>
-                                        </tr>
-                                        <tr>
-                                            <th>금일발전량</th>
-                                            <td>0.00 kWh</td>
-                                            <th>금일발전시간</th>
-                                        </tr>
-                                        <tr>
-                                            <th>누적발전량</th>
-                                            <td>29.50 MWh</td>
-                                            <td>0.0 Hour</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="table-item">
-                            <a href="#">
-                                <div class="plant-normal">
-                                    아산배방우방아이유쉘 태양광발전소
-                                </div>
-                                <div class="plant-table">
-                                    <table>
-                                        <colgroup>
-                                            <col class="first-column" />
-                                            <col class="second-column" />
-                                            <col class="third-column" />
-                                        </colgroup>
-                                        <tr>
-                                            <th>현재출력</th>
-                                            <td>0.00 kW</td>
-                                            <th>설치용량</th>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <th>0%</th>
-                                            <td>258 kW</td>
-                                        </tr>
-                                        <tr>
-                                            <th>금일발전량</th>
-                                            <td>0.00 kWh</td>
-                                            <th>금일발전시간</th>
-                                        </tr>
-                                        <tr>
-                                            <th>누적발전량</th>
-                                            <td>29.50 MWh</td>
-                                            <td>0.0 Hour</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="table-item">
-                            <a href="#">
-                                <div class="plant-normal">
-                                    아산배방우방아이유쉘 태양광발전소
-                                </div>
-                                <div class="plant-table">
-                                    <table>
-                                        <colgroup>
-                                            <col class="first-column" />
-                                            <col class="second-column" />
-                                            <col class="third-column" />
-                                        </colgroup>
-                                        <tr>
-                                            <th>현재출력</th>
-                                            <td>0.00 kW</td>
-                                            <th>설치용량</th>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <th>0%</th>
-                                            <td>258 kW</td>
-                                        </tr>
-                                        <tr>
-                                            <th>금일발전량</th>
-                                            <td>0.00 kWh</td>
-                                            <th>금일발전시간</th>
-                                        </tr>
-                                        <tr>
-                                            <th>누적발전량</th>
-                                            <td>29.50 MWh</td>
-                                            <td>0.0 Hour</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="table-item">
-                            <a href="#">
-                                <div class="plant-normal">
-                                    아산배방우방아이유쉘 태양광발전소
-                                </div>
-                                <div class="plant-table">
-                                    <table>
-                                        <colgroup>
-                                            <col class="first-column" />
-                                            <col class="second-column" />
-                                            <col class="third-column" />
-                                        </colgroup>
-                                        <tr>
-                                            <th>현재출력</th>
-                                            <td>0.00 kW</td>
-                                            <th>설치용량</th>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <th>0%</th>
-                                            <td>258 kW</td>
-                                        </tr>
-                                        <tr>
-                                            <th>금일발전량</th>
-                                            <td>0.00 kWh</td>
-                                            <th>금일발전시간</th>
-                                        </tr>
-                                        <tr>
-                                            <th>누적발전량</th>
-                                            <td>29.50 MWh</td>
-                                            <td>0.0 Hour</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="table-item">
-                            <a href="#">
-                                <div class="plant-normal">
-                                    아산배방우방아이유쉘 태양광발전소
-                                </div>
-                                <div class="plant-table">
-                                    <table>
-                                        <colgroup>
-                                            <col class="first-column" />
-                                            <col class="second-column" />
-                                            <col class="third-column" />
-                                        </colgroup>
-                                        <tr>
-                                            <th>현재출력</th>
-                                            <td>0.00 kW</td>
-                                            <th>설치용량</th>
-                                        </tr>
-                                        <tr>
-                                            <th>1</th>
-                                            <th>0%</th>
-                                            <td>258 kW</td>
-                                        </tr>
-                                        <tr>
-                                            <th>금일발전량</th>
-                                            <td>0.00 kWh</td>
-                                            <th>금일발전시간</th>
-                                        </tr>
-                                        <tr>
-                                            <th>누적발전량</th>
-                                            <td>29.50 MWh</td>
-                                            <td>0.0 Hour</td>
-                                        </tr>
-                                    </table>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="total-mount">
-
+                <br>
+                <div class="button_box">
+                    <input type="button" id="next_button" onclick="next();" value="다음"/>
                 </div>
             </div>
-            <div class="map-container">
-                <div class="map">
-                    
-                </div>
-                <div class="alarm">
-                    알람
-                </div>
-            </div>
-        </div>
-    </section>
-
-   
+            <footer></footer>
+        </div>        
+        <script src="js/index.js">    
+        </script>
+    </div>    
 </body>
 </html>
