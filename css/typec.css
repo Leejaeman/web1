@@ -13,3 +13,7 @@ span {
 .problem{
     height: 150px;
 }
+
+.logo{
+    margin-left: -200px;
+}
