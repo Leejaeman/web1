@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" media="(min-width:0px) and (max-width: 600px)" href="css/index_mobile.css">
 </head>
 <body>
     <div id="center">
@@ -17,23 +17,24 @@
     </header>
     <div class="problem">
         <p>Which is correct according to the article? </p><br>
-
-        <p>The Stark's Pond Baseball Tournament is over. The hometown team, the Stark's Pond<br><br> 
-            Bears, won the final game. They beat the Ravenwood Warriors by a score of six to four. <br><br>
-            John Carter drove in the winning runs. He hit a three-run homerun in the final inning. <br><br>
-            There was a picnic for the players after the game. At the picnic, the mayor presented the <br><br>
-            championship trophy to the winners.</p><br>        
-        
-        <div class="sample">
-            <ul>
-                <li><label><input type="radio" name="answer" value="1"/>  There was a picnic before the final game.</label></li>
-                <li><label><input type="radio" name="answer" value="2"/>  The mayor plays for the Stark's Pond Bears.</label></li>
-                <li><label><input type="radio" name="answer" value="3"/>  The Ravenwood Warriors won the game.</label></li>
-                <li><label><input type="radio" name="answer" value="4"/>  John Carter hit a homerun.</label></li>
-            </ul>
-            <br>
-            <div class="button_box">
-                <input type="button" id="next_button" onclick="next();" value="다음"/>
+        <div id="content">
+            <p>The Stark's Pond Baseball Tournament is over. The hometown team, the Stark's Pond<br><br> 
+                Bears, won the final game. They beat the Ravenwood Warriors by a score of six to four. <br><br>
+                John Carter drove in the winning runs. He hit a three-run homerun in the final inning. <br><br>
+                There was a picnic for the players after the game. At the picnic, the mayor presented <br><br>
+                the championship trophy to the winners.</p><br>        
+            
+            <div class="sample">
+                <ul>
+                    <li><label><input type="radio" name="answer" value="1"/>  There was a picnic before the final game.</label></li>
+                    <li><label><input type="radio" name="answer" value="2"/>  The mayor plays for the Stark's Pond Bears.</label></li>
+                    <li><label><input type="radio" name="answer" value="3"/>  The Ravenwood Warriors won the game.</label></li>
+                    <li><label><input type="radio" name="answer" value="4"/>  John Carter hit a homerun.</label></li>
+                </ul>
+                <br>
+                <div class="button_box">
+                    <input type="button" id="next_button" onclick="next();" value="다음"/>
+                </div>
             </div>
         </div>
         <footer></footer>

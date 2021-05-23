@@ -1,0 +1,8 @@
+.problem{
+    clear: both;
+    margin: 1rem 1rem 0px;
+    width: 24rem;
+    height: 25rem;
+    line-height: 1.3rem;
+    border: 1px solid red;
+}

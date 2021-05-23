@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>심리 테스트</title>
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" media="(min-width:0px) and (max-width: 600px)" href="css/index_mobile.css">
 </head>
 <body>
     <div id="center">
@@ -17,27 +17,29 @@
         </header>
         <div class="problem">
             <p>다음 글에서 전체 흐름과 관계 없는 문장은</p><br><br>
-    
-            <p>Today car sharing movements have appeared all over the world. In many cities, car sharing has <br><br>
-                made a strong impact on how city residents travel. ①Even in strong car-ownership cultures such as <br><br>
-                North America, car sharing has gained popularity. ②In the U.S. and Canada, membership in car <br><br>
-                sharing now exceeds one in five adults in many urban areas. ③Strong influence on traffic jams and <br><br>
-                pollution can be felt from Toronto to New York, as each shared vehicle replaces around 10 personal <br><br>
-                cars. ④The best thing about driverless cars is that people won't need a license to operate them. ⑤ <br><br>
-                City governments with downtown areas struggling with traffic jams and lack of parking lots are <br><br>
-                driving the growing popularity of car sharing.</p><br>
-    
-            <div class="sample">
-                <ul>
-                    <li><label><input type="radio" name="answer" value="1"/>  ①</label></li>
-                    <li><label><input type="radio" name="answer" value="2"/>  ②</label></li>
-                    <li><label><input type="radio" name="answer" value="3"/>  ③</label></li>
-                    <li><label><input type="radio" name="answer" value="4"/>  ④</label></li>
-                    <li><label><input type="radio" name="answer" value="5"/>  ⑤</label></li>
-                </ul>
-                <br>
-                <div class="button_box">
-                    <input type="button" id="next_button" onclick="next();" value="다음"/>
+            <div id="content">
+                <p>Today car sharing movements have appeared all over the world. In many cities, <br><br>
+                    car sharing has made a strong impact on how city residents travel. ① Even in strong <br><br>
+                    car-ownership cultures such as North America, car sharing has gained popularity. <br><br>
+                    ② In the U.S. and Canada, membership in car sharing now exceeds one in five adults <br><br>
+                    in many urban areas. ③ Strong influence on traffic jams and pollution can be felt <br><br>
+                    from Toronto to New York, as each shared vehicle replaces around 10 personal cars. <br><br>
+                    ④ The best thing about driverless cars is that people won't need a license to operate <br><br>
+                    them. ⑤ City governments with downtown areas struggling with traffic jams and lack of <br><br>
+                    parking lots are driving the growing popularity of car sharing.</p><br>
+        
+                <div class="sample">
+                    <ul>
+                        <li><label><input type="radio" name="answer" value="1"/>  ①</label></li>
+                        <li><label><input type="radio" name="answer" value="2"/>  ②</label></li>
+                        <li><label><input type="radio" name="answer" value="3"/>  ③</label></li>
+                        <li><label><input type="radio" name="answer" value="4"/>  ④</label></li>
+                        <li><label><input type="radio" name="answer" value="5"/>  ⑤</label></li>
+                    </ul>
+                    <br>
+                    <div class="button_box">
+                        <input type="button" id="next_button" onclick="next();" value="다음"/>
+                    </div>
                 </div>
             </div>
             <footer></footer>
