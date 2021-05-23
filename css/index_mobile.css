@@ -1,0 +1,53 @@
+.problem{
+    clear: both;
+    margin: 1rem 1rem 0px;
+    width: 24rem;
+    height: 25rem;
+    line-height: 1.3rem;
+}
+
+.problem br {
+    display: none !important;
+}
+
+ul > li {
+    padding: 0.5rem 0.1rem 0.25rem 0.05rem;
+}
+
+ul{
+    margin-left: -2.5rem;
+}
+
+label{
+    margin-left: 0.01rem;
+}
+
+.sample {
+    padding-left: -1rem;
+}
+
+#center{
+    width: 25rem;
+    height: 50rem;
+    margin: 0 auto;
+}
+
+footer {
+    clear:right;
+    background: url(../img/base.png) no-repeat;
+    height: 10rem;
+    width: 100%;
+    margin-top: 5rem;
+    margin-left: -0.25em;
+    /* text-align: center; */
+    /* margin-left: 5rem; */
+}
+
+.logo {
+    padding-left: 2rem;
+}
+
+.button_box{
+    margin-top: 1rem;
+    margin-left: 15rem;
+}
